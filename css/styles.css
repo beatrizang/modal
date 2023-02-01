@@ -148,6 +148,24 @@ body{
     transform: scale(1.5);
 }
 
+@media screen and (max-width: 768px) {
+    .banner{
+        height: 150px;
+        width: 90%;
+    }
+    .banner h1{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .modal-container{
+        height: 150px;
+        width: 90%;
+    }
+    .modal-container h2{
+        font-size: 1.8rem
+    }   
+}
+
 
 @media screen and (max-width: 375px) {
     .banner{
